@@ -1,0 +1,101 @@
+html {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	background-color: lightgrey;
+}
+body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	background-color: lightgrey;
+
+}
+.frameA {
+	box-sizing: border-box;
+	padding: 0;
+	height: 100%;
+	width: 200px;
+	float: left;
+}
+.frameB {
+	box-sizing: border-box;
+	padding: 0;
+	height: 100%;
+	width: auto;
+	font-size: small;
+	overflow: hidden;
+}
+.frameC {
+	height: 100%;
+	width: 200px;
+	float: right;
+}
+#homeLocation {
+	float: right;
+	height: 25px;
+	padding: 3px;
+}
+#map_1 {
+	height: 97%;
+	width: 100%;
+}
+#map_2, #map_3 {
+	height: 100%;
+	width: 100%;
+}
+#capt_0, #capt_1{
+	margin: 0;
+	width: 200px;
+	position: absolute;
+	top: 0;
+	background-color: whitesmoke;
+}
+#capt_2, #capt_3 {
+	margin: 0;
+	width: 200px;
+	position: absolute;
+	bottom: 0;
+	background-color: whitesmoke;
+}
+#capt_0a, #capt_1a, #capt_2a, #capt_3a {
+	width: auto;
+	margin: 8px 8px 0px;
+	text-wrap: unrestricted;
+	font-size: 85%;
+}
+#capt_0b, #capt_1b, #capt_2b, #capt_3b {
+	width: auto;
+	margin: 4px 8px 0px;
+	text-wrap: unrestricted;
+	font-size: 70%;
+}
+#capt_0c, #capt_1c, #capt_2c, #capt_3c {
+	width: auto;
+	margin: 4px 8px 0px;
+	font-size: 70%;
+	text-wrap: unrestricted;
+}
+.myCSSClass {
+	background: green;
+	border: 0px solid green;
+	color: white;
+	font-size: x-small;
+}
+.myCSSClass_2 {
+	background: white;
+	border: 0px solid green;
+	color: green;
+	font-size: small;
+}
+.leaflet-popup-content-wrapper {
+	padding: 1px;
+	text-align: left;
+	border-radius: 4px;
+	}
+.leaflet-popup-content {
+	margin: 20px 4px 2px 4px;
+	line-height: 1.4;
+	}

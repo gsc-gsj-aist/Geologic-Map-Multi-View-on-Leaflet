@@ -11,3 +11,5 @@
 ・Proj4js (MIT License)  
 ・L.TileLayer.BetterWMS_lv10  
 ・xmlToJson (MIT License、lv10_example_50k.js内)  
+利用に際しては、各ライブラリのライセンスに従ってください。ソースコードの設置状況によっては、ブラウザのクロスドメイン制限に対応するための手立てが必要となることがあります。L.TileLayer.BetterWMS_lv10.jsはL.TileLayer.BetterWMS.jsを改変したものです。 
+・L.TileLayer.BetterWMS.js (https://github.com/gsc-gsj-aist/Leaflet-GetFeatureInfo) 
